@@ -22,3 +22,10 @@ Route::get('/message/{id}/{success}', [MessageController::class, 'view']);
 Route::post('/create', [MessageController::class, 'create']);
 
 Route::post('/update/{id}/{success}', [MessageController::class, 'update']);
+
+//view angular version:
+Route::get('/angular', function () {
+    error_log(public_path() . '/to new folder name/index.html');
+    return response()->file(public_path() . '/angular/index.html', ['Content-Type' => 'text/html; charset=UTF-8']);
+    //return view('angular');
+});
