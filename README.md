@@ -35,6 +35,7 @@ Extra request:
 <h2>What's inside?</h2>
 <p>This project was built using Laravel Sail to create a dockerized version of a themes picker demo. The site allows you to generate/update/preview color themes for use in other projects. It features a Laravel backend with both a Laravel Blade and Angular front end to showcase both routes and api calls. It is currently set to run locally. This project has only been tested on Windows10 bash (Windows 10 Ubuntu integration) and works well on both Chrome and Firefox.</p>
  
+ <p>An simplified Android version is available as well in the Android folder</p>
 
 <h2>Sidenote:</h2> 
 <p> Two other versions were made, but due to issues with Windows10/Ubuntu permissions, they ended up getting corrupted when uploaded to git, so the project had to be rebuilt a 3rd time (this version) with permissions properly set in Windows/Ubuntu. </p>
