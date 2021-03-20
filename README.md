@@ -1,5 +1,4 @@
 <h1>Laravel/Angular themes</h1>
-<h2>A demo submission for Tradeful</h2>
 
 The following demo showcases the use of Laravel as well as Angular 2+ with a Laravel backend. 
 
